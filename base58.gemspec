@@ -1,4 +1,4 @@
-require File.expand_path("lib/base58/version", __dir__)
+require File.expand_path("lib/version", __dir__)
 
 Gem::Specification.new do |spec|
   spec.name          = "base58"

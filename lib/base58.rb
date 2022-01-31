@@ -1,5 +1,3 @@
-require 'version'
-
 module Base58
   # See https://en.wikipedia.org/wiki/Base58
   ALPHABET = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz"
