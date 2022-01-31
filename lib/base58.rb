@@ -29,7 +29,7 @@ module Base58
       prefix = ''
     end
 
-    prefix + from_int(str.unpack('H*')[0].to_i(16), alphabet)
+    prefix + from_int(str.unpack('H*')[0].to_i(16))
   end # Base58.from_str
 
   def self.to_int b58
